@@ -15,6 +15,11 @@ Visit website:
 `http://localhost:2064/`
 
 ## RESTful API
+Start server for RESTful API:
+`node api.js`
+
+This HTTP header should be used for all requests: `Authorization: Bearer csci2720`
+
 - List all bus stops:  `GET http://localhost:2064/api/locations`
 
 - Add a new bus stop: `POST http://localhost:2064/api/locations`
@@ -42,9 +47,6 @@ Visit website:
 	```
 
 - Delete a bus stop: `DELETE http://localhost:2064/api/locations/bus-stop-id`
-
-Start server for RESTful API:
-`node api.js`
 
 ## Data Source:
 Citybus ETA: https://data.gov.hk/en-data/dataset/ctb-eta-transport-realtime-eta
